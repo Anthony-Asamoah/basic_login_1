@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+.hidden {
+  display: none;
+}
+
+.head {
+  margin: 15px auto 30px auto;
+  text-align: center;
+}
+.the-form {
+  width: 500px;
+  height: auto;
+  position: fixed;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  /*border: 1px solid black;*/
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding:20px 100px;
+  box-shadow: 0 0 15px 5px #00518b;
+}
+
+.welcome-img {
+  width: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  object-position: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.form-outline {
+  padding-top:10px;
+  border-top: 1px solid #00518b;
+}
+
+.form-outline input {
+  transition: 0.7s ease;
+  outline: none;
+}
+
+.form-outline input:active {
+  color:black;
+  background-color: white;
+}
+.form-outline input:hover, .form-outline input:focus {
+  background-color: #00518b;
+  color: white;
+}
+
