@@ -8,9 +8,8 @@
   - show register form
 }
 
-# create a service to provide dummmy data
+# move dummy data into a service
 
 # verify username & password with data {
-  if verified: route to welcome page
-  else: show warning
+  if not verified; show warning
 }
