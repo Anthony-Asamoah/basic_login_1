@@ -1,0 +1,16 @@
+# on login click {
+  - hide register form
+  - show login form
+}
+
+# on register click {
+  - hide login form
+  - show register form
+}
+
+# create a service to provide dummmy data
+
+# verify username & password with data {
+  if verified: route to welcome page
+  else: show warning
+}
